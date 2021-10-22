@@ -1,17 +1,16 @@
 {
-  "name": "Testing-23",
-  "description": "Blank Process",
+  "name": "UploadDraftDoc",
+  "description": "24/09/2020: Updated with user-friendly activity names.",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.10.4]",
-    "UiPath.Mail.Activities": "[1.10.5]",
-    "UiPath.System.Activities": "[21.4.1]",
-    "UiPath.UIAutomation.Activities": "[21.4.4]"
+    "UiPath.Excel.Activities": "[2.6.3]",
+    "UiPath.Mail.Activities": "[1.6.0]",
+    "UiPath.System.Activities": "[19.8.0]",
+    "UiPath.UIAutomation.Activities": "[19.8.0-ce]"
   },
   "webServices": [],
-  "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "21.4.4.0",
+  "studioVersion": "19.9.2.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -22,9 +21,7 @@
       "Private:*",
       "*password*"
     ],
-    "executionType": "Workflow",
-    "readyForPiP": false,
-    "startsInPiP": false
+    "executionType": "Workflow"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -33,23 +30,7 @@
       "includeOriginalXaml": false,
       "privateWorkflows": []
     },
-    "processOptions": {
-      "ignoredFiles": []
-    },
-    "fileInfoCollection": [],
-    "modernBehavior": false
+    "fileInfoCollection": []
   },
-  "expressionLanguage": "VisualBasic",
-  "entryPoints": [
-    {
-      "filePath": "Main.xaml",
-      "uniqueId": "8155d2c6-a80d-48b3-85a8-ec3bce9774bb",
-      "input": [],
-      "output": []
-    }
-  ],
-  "isTemplate": false,
-  "templateProjectData": {},
-  "publishData": {},
-  "targetFramework": "Legacy"
+  "expressionLanguage": "VisualBasic"
 }
